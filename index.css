@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+body{
+    background-color: wheat;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+.review p{
+   font-size: 30px;
+   font-weight: 400;
+   
+}
+.review{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+
+}
+.review p{
+    font-size: 25px;
+ 
+}
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: rgb(30, 153, 153);
+    border-radius: 5px;
+}
+.about{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.about img{
+        
+    width:230px;
+    height: 230px;
+}
+@media(max-width:550px)
+{
+    .about{
+        
+        width: 60%;
+    }
+
+}
+@media(max-width:450px)
+{
+    .about{
+        
+        width: 70%;
+    }
+
+}
+@media(max-width:350px)
+{
+    .about{
+        
+        width: 80%;
+    }
+    .about img{
+        
+        width:150px;
+        height: 150px;
+    }
+
+}
+@media(max-width:300px)
+{
+    .about{
+        
+        width: 90%;
+    }
+    .rand{
+        font-size: 14px;
+    }
+    .about img{
+        
+        width:150px;
+        height: 150px;
+    }
+
+}
+
+.name{
+    letter-spacing: 4px;
+    font-size: 23px;
+}
+.duty{
+    
+    font-size: 20px;
+     color: rgb(30, 153, 153);
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(30, 153, 153);
+}
+button{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+    width: 80px;
+    border: 2px solid rgb(30, 153, 153);
+    color:rgb(30, 153, 153) ;
+}
+.rand{
+    display: flex;
+    justify-content: center;
+}
